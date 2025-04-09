@@ -16,10 +16,10 @@ Create an object called `person` with these properties:
 
 ```javascript
 const person = {
-  name: "John",
-  age: 25,
-  job: "Developer",
-};
+    name: "John",
+    age: 25,
+    job: "Developer",
+}
 ```
 
 ---
@@ -32,8 +32,8 @@ Use `console.log` to display:
 - The person's job
 
 ```javascript
-console.log(person.name);
-console.log(person.job);
+console.log(person.name)
+console.log(person.job)
 ```
 
 ---
@@ -43,7 +43,7 @@ console.log(person.job);
 Add a new property called `hobby` with value `"Reading"` to the `person` object.
 
 ```javascript
-person.hobby = "Reading";
+person.hobby = "Reading"
 ```
 
 ---
@@ -53,7 +53,7 @@ person.hobby = "Reading";
 Change the `age` of `person` to `30`.
 
 ```javascript
-person.age = 30;
+person.age = 30
 ```
 
 ---
@@ -63,7 +63,7 @@ person.age = 30;
 Remove the `job` property from the `person` object.
 
 ```javascript
-delete person.job;
+delete person.job
 ```
 
 ---
@@ -84,15 +84,14 @@ Print `student`'s city.
 
 ```javascript
 const student = {
-  name: "Alice",
-  grade: 90,
-  address: {
-    city: "Jakarta",
-    country: "Indonesia",
-  },
-};
-
-console.log(student.address.city);
+    name: "Allice",
+    grade: 90,
+    address: {
+        city: "Jakarta",
+        country: "Indonesia",
+    }
+}
+console.log(student.address.city)
 ```
 
 ---
@@ -106,14 +105,11 @@ Add a method called `greet` inside `person` object that returns:
 Then call it.
 
 ```javascript
-const person = {
-  name: "John",
-};
 person.greet = function () {
-  return `Hi, my name is ${this.name}`;
-};
+    return `Hi, my name is ${this.name}`
+}
 
-console.log(person.greet());
+person.greet()
 ```
 
 ---
