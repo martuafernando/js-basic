@@ -24,7 +24,7 @@ const fruits = ["Apple", "Banan", "Orange"]
 Print the first and the last element of the `fruits` array.
 
 ```javascript
-// your code here
+console.log(fruits[0])
 ```
 
 ---
