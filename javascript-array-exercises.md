@@ -86,7 +86,8 @@ Check if `"Banana"` exists in the `fruits` array.
 Expected output → `true` or `false`
 
 ```javascript
-// your code here
+const output = fruits.includes("Banana")
+console.log(output)
 ```
 
 ---
