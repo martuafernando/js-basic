@@ -97,7 +97,7 @@ console.log(output)
 Find the index of `"Orange"` in the `fruits` array.
 
 ```javascript
-// your code here
+const index = fruits.findIndex("Orange")
 ```
 
 ---
