@@ -25,6 +25,7 @@ Print the first and the last element of the `fruits` array.
 
 ```javascript
 console.log(fruits[0])
+console.log(fruits[fruits.length - 1])
 ```
 
 ---
