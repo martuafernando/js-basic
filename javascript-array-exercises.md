@@ -34,7 +34,7 @@ console.log(fruits[0])
 Add `"Mango"` to the end of `fruits`.
 
 ```javascript
-// your code here
+fruits.push("Mango")
 ```
 
 ---
